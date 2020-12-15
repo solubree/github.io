@@ -6,11 +6,15 @@ body, html {
     font-family: sans-serif;
 }
 
+nav ul, nav li, nav form{
+    display: inline;
+}
+
 .hero-image {
     position: relative;
     height: 500PX;
     overflow: hidden;
-    background: url(../img/hero2.jpg) no-repeat center;
+    background: url(../img/hero3.jpg) no-repeat center;
     background-size: cover;
 }
 
