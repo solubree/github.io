@@ -106,5 +106,72 @@ section #test {
    border-style: solid;
 }
 */
+#flexarticle {
+  display: flex;
+  flex-flow: row  wrap;
+  justify-content: flex-start;
+  
+ }
 
-.mission {text-align: center;}
+.one {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+ 
+ 
+}
+
+.two {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+  
+}
+
+.three {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+ 
+
+}
+#workflow {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.consult {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+  border-style: solid;
+  text-align: center;
+
+ 
+}
+
+.design{
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+  border-style: solid;
+  text-align: center;
+}
+
+.devtest {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+  border-style: solid;
+  text-align: center;
+}
+
+.deploy {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin: 30px;
+  border-style: solid;
+  text-align: center;
+}
