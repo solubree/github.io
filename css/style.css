@@ -1,10 +1,10 @@
 .hero.is-primary .title {
-  color: #009494;
+  color: #0077BE;
   font-size: 10em;
 }
 
 .hero.is-primary .subtitle {
-  color: #f777ca;
+  color: #007FCB;
   font-size: 5em;
 }
 
@@ -177,5 +177,7 @@ section #test {
   border-style: solid;
   text-align: center;
 }
+
+.h3 {font-style: italic ;}
 
 
