@@ -15,7 +15,7 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">
-        <img src="img/solubreelogo.jpg" width="auto" height="auto"git>
+        <img src="img/solubreelogozoomed.png" alt="Solubree">
       </a>
   
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
@@ -98,14 +98,14 @@
 <section class="hero is-medium is-primary is-bold is-fullheight" id="anchor-home">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
+        <h1 class="title" style="font-size: 10vw">
           Solubree
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle" style="font-size: 5vw">
           IT Solutions in a Breeze
         </h2>
-        <button class="button is-link is-rounded is-large" onclick="window.location.href='#anchor-contact';">Consult Now</button>
-        <button class="button is-rounded is-large" onclick="window.location.href='#anchor-learnmore';">Learn More</button>
+        <button class="button is-link is-rounded" onclick="window.location.href='#anchor-contact';">Consult Now</button>
+        <button class="button is-rounded" onclick="window.location.href='#anchor-learnmore';">Learn More</button>
 
       </div>
     </div>
@@ -485,6 +485,8 @@ if ($navbarBurgers.length > 0) {
       // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
       el.classList.toggle('is-active');
       $target.classList.toggle('is-active');
+
+      
 
     });
   });
