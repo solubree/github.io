@@ -1,6 +1,6 @@
 .hero.is-primary .title {
-  color: #0077BE;
-  font-size: 10em;
+  color: #FFFFFF;
+  font-size: 10rem;
 }
 
 .hero.is-primary .subtitle {
@@ -10,9 +10,11 @@
 
 
 .hero.is-primary.is-bold {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 
